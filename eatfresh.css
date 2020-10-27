@@ -88,7 +88,6 @@ button{
     width: max-content;
     margin:25px;
     border: 1px solid #184d47;
-    border-radius: 0 0 50px 50px;
     display: inline-block;
 }
 .categories:hover, .items:hover{
@@ -126,9 +125,40 @@ a{
     max-width: 20%;
     background: linear-gradient(120deg,#16817a 20%,#cee397 50%,#16817a 80%);
 }
+/* .radio{
+    display: none;
+}
+.deal-container{
+    position: relative;
+    max-width: 90%;
+    margin: 5% auto;
+}
+.slider{
+    width: 100%;
+    position: relative;
+    height: 500px;
+    box-shadow: 00 0 40px rgb(0, 0,0, 0.8);
+    display: flex;
+    overflow: hidden;
+
+}
+.content{
+    position: absolute;
+    width:100%;
+    left: 5%;
+    top: 20%;
+    font-weight: 500;
+    font-size:40px;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
 .coupon-btn{
-    border: 1px solid white;
-    color: white;
+    border: 1px solid black;
+    color: black;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -136,6 +166,34 @@ a{
 .coupon-btn:hover{
     box-shadow: 0 0 10px 5px white inset;
 }
+/* .dots{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dots label{
+    width: 15px;
+    height: 15px;
+    background: black;
+    margin: 0 10px;
+    border-radius: 50%;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.dots label:hover{
+    opacity: 0.7;
+}
+
+#radio-1:checked ~ #slider-1,
+#radio-2:checked ~ #slider-2,
+#radio-3:checked ~ #slider-3{
+    opacity:1
+} */
 .images{
     display: inline-block;
 }
@@ -148,7 +206,7 @@ a{
     margin: 20px;
     max-height: 100px;
 }
-.item-select{
+.item-select {
     margin: 10px 0 0 0;
 }
 .buynow-btn{
@@ -197,4 +255,149 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin:15px;
+}
+.container1 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+.cart-row1 {
+    display: flex;
+    background-color: #184d47;
+    padding-left: 10px;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+.cart-price1{
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 130px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase1 {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.btn1 {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+.btn-primary1 {
+    color: white;
+    background-color: #184d47;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary1:hover {
+    background-color: #2D9CDB;
+}
+.btn-danger1 {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger1:hover {
+    background-color: #CC4C4C;
 }
