@@ -28,7 +28,7 @@ body{
     width: 100%;
 }
 .menu{
-    background: #184d47;
+    background: #191970;
     text-align: center;
 }
 .menu-ul{
@@ -40,14 +40,14 @@ body{
     font-size: 17px;
     list-style: none;
     display: inline-block;
-    padding: 25px 25px 26px 25px;
+    padding: 25px 25px 25px 25px;
 }
 .a-menu, .a-links{
     text-decoration: none;
     color:white;
 }
 .menu-ul li:hover{
-    background:#5b8c5a;
+    background:#4169E1;
     transform: scale(1.1) ;
 }
 .search-box{
@@ -59,8 +59,8 @@ body{
     margin:8px;
 }
 .search-box:hover{
-    box-shadow: 0 0 10px 2px #5b8c5a;
-    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10px 2px #4169E1;
+    border: 1px solid #4169E1;
 }
 .search-input{
     width: 250px;
@@ -118,16 +118,7 @@ a{
     color: white;
     background: rgba(0, 0, 0, 0.5);
 }
-.coupon-btn{
-    border: 1px solid black;
-    color: black;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-}
-.coupon-btn:hover{
-    box-shadow: 0 0 10px 5px white inset;
-}
+
 .images{
     display: inline-block;
 }
@@ -145,7 +136,7 @@ a{
     margin: 10px 0 0 0;
 }
 .buynow-btn{
-    border: 1px solid #184d47;
+    border: 1px solid #191970;
     background: #184d47;
     padding: 5px 15px;
     border-radius:20px;
@@ -163,8 +154,8 @@ a{
 }
 .footer{
     background: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    padding: 30px;
 }
 .quick-links{
     color: white;
@@ -317,16 +308,16 @@ a{
 }
 
 .btn-primary1:hover {
-    background-color: #2D9CDB;
+    background-color: #7FFF00;
 }
 .btn-danger1 {
     color: white;
-    background-color: #EB5757;
+    background-color: #FFFFFF;
     border: none;
     border-radius: .3em;
     font-weight: bold;
 }
 
 .btn-danger1:hover {
-    background-color: #CC4C4C;
+    background-color: #EC4C4C;
 }
