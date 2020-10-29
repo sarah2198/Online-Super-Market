@@ -96,13 +96,15 @@ button{
 .item-image{
     height: 200px;
     width: 200px;
-    border-radius: 0 0 50px 50px;
+    border-radius: 10%;
     padding: 10px;
 }
-.item-title{
+.item-title, .image-title{
     text-align: center;
     padding: 10px;
     font-weight: bold;
+    color:black;
+    font-size: 20px;
 }
 a{
     text-decoration: none;
@@ -125,37 +127,6 @@ a{
     max-width: 20%;
     background: linear-gradient(120deg,#16817a 20%,#cee397 50%,#16817a 80%);
 }
-/* .radio{
-    display: none;
-}
-.deal-container{
-    position: relative;
-    max-width: 90%;
-    margin: 5% auto;
-}
-.slider{
-    width: 100%;
-    position: relative;
-    height: 500px;
-    box-shadow: 00 0 40px rgb(0, 0,0, 0.8);
-    display: flex;
-    overflow: hidden;
-
-}
-.content{
-    position: absolute;
-    width:100%;
-    left: 5%;
-    top: 20%;
-    font-weight: 500;
-    font-size:40px;
-}
-.slide img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
 .coupon-btn{
     border: 1px solid black;
     color: black;
@@ -166,34 +137,6 @@ a{
 .coupon-btn:hover{
     box-shadow: 0 0 10px 5px white inset;
 }
-/* .dots{
-    width: 100%;
-    position: absolute;
-    bottom: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.dots label{
-    width: 15px;
-    height: 15px;
-    background: black;
-    margin: 0 10px;
-    border-radius: 50%;
-    opacity: 0.3;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-}
-
-.dots label:hover{
-    opacity: 0.7;
-}
-
-#radio-1:checked ~ #slider-1,
-#radio-2:checked ~ #slider-2,
-#radio-3:checked ~ #slider-3{
-    opacity:1
-} */
 .images{
     display: inline-block;
 }
@@ -201,6 +144,7 @@ a{
     height: 200px;
     width: 300px;
     padding: 5px;
+    border-radius: 15%;
 }
 .description{
     margin: 20px;
